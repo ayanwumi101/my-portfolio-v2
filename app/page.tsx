@@ -11,7 +11,7 @@ export default function Home() {
           <div className="text-[#e5e9f0]">
             <span className="md:text-sm">Hi all. I am</span>
             {/* <h1 className=" text-[4em] my-0.5 -mt-1.5">Dev_cody</h1> */}
-            <h3 className=" text-[3.5em] my-0.5 -mt-1.5">Ayanwumi Abdulroheem</h3>
+            <h3 className=" text-[4em] my-0.5 -mt-1.5">Dev_cody</h3>
             <h2 className="text-[#4d5bce] text-2xl">
               &gt; Front-end developer and technical writer
             </h2>

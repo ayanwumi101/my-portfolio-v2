@@ -34,7 +34,7 @@ export default function Footer() {
           <RiTwitterFill fill="#607B96" size={25} />
         </a>
       </div>
-      <div>
+      {/* <div>
         <a
           aria-label="Abdulroheem twitter profile"
           href="https://wa.me/+2348127671686"
@@ -43,7 +43,7 @@ export default function Footer() {
         >
           <RiWhatsappFill fill="#607B96" size={25} />
         </a>
-      </div>
+      </div> */}
       <div>
         <a
           aria-label="Abdulroheem github profile"
