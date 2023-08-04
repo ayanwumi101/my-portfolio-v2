@@ -25,7 +25,7 @@ export default function Contact() {
     };
 
     let req = await axios({
-      url: `https://formspree.io/f/${process.env.NEXT_PUBLIC_FORMSPREE_ID}`,
+      url: `https://formspree.io/f/xleygvzb`,
       method: "post",
       headers: {
         Accept: "application/json",
@@ -62,8 +62,8 @@ export default function Contact() {
   return (
     <>
       <Head>
-        <title>Qudusayo - Contact</title>
-        <meta name="description" content="Send Qudusayo a message" />
+        <title>Abdulroheem - Contact</title>
+        <meta name="description" content="Send Dev_cody a message" />
       </Head>
       <div>
         <BoxLayout
@@ -74,22 +74,22 @@ export default function Contact() {
                 {
                   title: "contacts",
                   content: [
-                    <a key={0} href="mailto:qqudusayo@gmail.com">
+                    <a key={0} href="mailto:ayanwunmiabdulroheemo@gmail.com">
                       <IoMail fill="#607b96" />
-                      <span>qqudusayo@gmail.com</span>
+                      <span>ayanwunmiabdulroheem@gmail.com</span>
                     </a>,
-                    <a key={1} href="tel:+2347016412041">
+                    <a key={1} href="tel:+2348127671686">
                       <IoCall fill="#607b96" />
-                      <span>+(234)701-6412-041</span>
+                      <span>+(234)812-7671-686</span>
                     </a>,
                   ],
                 },
                 {
-                  title: "find-me-also-in",
+                  title: "find-me-also-on",
                   content: [
                     <a
                       key={0}
-                      href="http://discordapp.com/users/712416046317043762"
+                      href="http://discordapp.com/users/927644571935068221"
                       target="_blank"
                       rel="noreferrer"
                     >
@@ -98,7 +98,7 @@ export default function Contact() {
                     </a>,
                     <a
                       key={1}
-                      href="https://stackoverflow.com/users/11659301/qudusayo"
+                      href="https://stackoverflow.com/users/13659063/ayanwumi-abdulroheem-ayodele"
                       target="_blank"
                       rel="noreferrer"
                     >
@@ -121,7 +121,7 @@ export default function Contact() {
                   <div className={styles.ContactFormBlock}>
                     <label>_name:</label>
                     <input
-                      placeholder="Ayoola Abdulqudus"
+                      placeholder="Ayanwumi Abdulroheem"
                       name="name"
                       value={formEntries.name}
                       onChange={formEntriesHandler}
@@ -130,7 +130,7 @@ export default function Contact() {
                   <div className={styles.ContactFormBlock}>
                     <label>_email:</label>
                     <input
-                      placeholder="qqudusayo@gmail.com"
+                      placeholder="ayanwunmiabdulroheem@gmail.com"
                       name="email"
                       value={formEntries.email}
                       onChange={formEntriesHandler}

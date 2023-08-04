@@ -3,6 +3,7 @@ import {
   RiLinkedinFill,
   RiTwitterFill,
   RiDribbbleFill,
+  RiWhatsappFill
 } from "react-icons/ri";
 
 import styles from "./Footer.module.scss";
@@ -11,12 +12,12 @@ export default function Footer() {
   return (
     <footer className={styles.Footer}>
       <div>
-        <span>find me in:</span>
+        <span>find me on:</span>
       </div>
       <div>
         <a
-          aria-label="Qudusayo linkedin profile"
-          href="https://www.linkedin.com/in/qudusayo/"
+          aria-label="Abdulroheem linkedin profile"
+          href="https://www.linkedin.com/in/abdulroheem-ayanwumi/"
           target="_blank"
           rel="noreferrer"
         >
@@ -25,8 +26,8 @@ export default function Footer() {
       </div>
       <div>
         <a
-          aria-label="Qudusayo twitter profile"
-          href="https://twitter.com/qudusayo"
+          aria-label="Abdulroheem twitter profile"
+          href="https://twitter.com/abdulroheem_"
           target="_blank"
           rel="noreferrer"
         >
@@ -35,8 +36,18 @@ export default function Footer() {
       </div>
       <div>
         <a
-          aria-label="Qudusayo github profile"
-          href="https://github.com/qudusayo/"
+          aria-label="Abdulroheem twitter profile"
+          href="https://wa.me/+2348127671686"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <RiWhatsappFill fill="#607B96" size={25} />
+        </a>
+      </div>
+      <div>
+        <a
+          aria-label="Abdulroheem github profile"
+          href="https://github.com/ayanwumi101/"
           target="_blank"
           rel="noreferrer"
         >

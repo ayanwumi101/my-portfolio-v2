@@ -49,8 +49,8 @@ export default function Projects() {
   return (
     <>
       <Head>
-        <title>Qudusayo - Projects</title>
-        <meta name="description" content="Works from Qudusayo" />
+        <title>Abdulroheem - Projects</title>
+        <meta name="description" content="Works from Dev_cody" />
       </Head>
       <div>
         <BoxLayout

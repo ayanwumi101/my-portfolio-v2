@@ -4,10 +4,10 @@ export default function Head() {
   return (
     <>
       <DefaultTags />
-      <title>About - Qudusayo</title>
+      <title>About - Abdulroheem</title>
       <meta
         name="description"
-        content="Hello there, I'm Qudusayo. I'm a full-stack developer."
+        content="Hello there, I'm Abdulroheem. I'm a front-end developer and technical writer."
       />
     </>
   );

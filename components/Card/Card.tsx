@@ -50,7 +50,7 @@ export default function Card({
         placeholder="blur"
         blurDataURL={`data:image/svg+xml;base64,${toBase64(shimmer(700, 475))}`}
         layout="responsive"
-        objectFit="cover"
+        objectFit="contain"
         alt={alt}
         className="rounded-t-md"
       />

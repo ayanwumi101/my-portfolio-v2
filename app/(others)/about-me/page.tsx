@@ -17,7 +17,7 @@ export default function About() {
   return (
     <>
       <Head>
-        <title>Qudusayo - About</title>
+        <title>Abdulroheem - About</title>
         <meta name="description" content="About Qudusayo" />
       </Head>
       <div>
@@ -31,23 +31,27 @@ export default function About() {
                 </span>
                 <span className={styles.tr}>
                   <span className={styles.th}></span>
-                  <code>I&apos;m Ayoola Abdulqudus,</code>
+                  <code>I&apos;m Ayanwumi Abdulroheem (Dev_cody)</code>
                 </span>
                 <span className={styles.tr}>
                   <span className={styles.th}></span>
-                  <code>a Frontend Developer. Right now </code>
+                  <code>I&apos;m a Frontend Developer with over 2 years of experience </code>
                 </span>
                 <span className={styles.tr}>
                   <span className={styles.th}></span>
-                  <code>I&apos;m working as a Freelancer focused on </code>
+                  <code>I currently work as a software engineering intern at PAC Holdings LTD</code>
                 </span>
                 <span className={styles.tr}>
                   <span className={styles.th}></span>
-                  <code>Frontend Development. I know my ways on </code>
+                  <code>Frontend Development? I know my ways.</code>
                 </span>
                 <span className={styles.tr}>
                   <span className={styles.th}></span>
-                  <code>Back-end but what I really like doing </code>
+                  <code>I know a little about back-end</code>
+                </span>
+                <span className={styles.tr}>
+                  <span className={styles.th}></span>
+                  <code>development but where I am proficient</code>
                 </span>
                 <span className={styles.tr}>
                   <span className={styles.th}></span>
@@ -55,11 +59,11 @@ export default function About() {
                 </span>
                 <span className={styles.tr}>
                   <span className={styles.th}></span>
-                  <code>Currently, my main area of focus has been </code>
+                  <code>Currently, my main area of focus is</code>
                 </span>
                 <span className={styles.tr}>
                   <span className={styles.th}></span>
-                  <code>NextJs for full stack development.</code>
+                  <code>React Native for mobile development.</code>
                 </span>
                 <span className={styles.tr}>
                   <span className={styles.th}></span>
@@ -67,11 +71,55 @@ export default function About() {
                 </span>
                 <span className={styles.tr}>
                   <span className={styles.th}></span>
-                  <code>HTML, CSS, Javascript, MongoDB, EVM </code>
+                  <code>HTML, CSS, Javascript, React, Next Js, </code>
                 </span>
                 <span className={styles.tr}>
                   <span className={styles.th}></span>
-                  <code>and some basic back-end (Node). </code>
+                  <code>React Native, Firebase, Rest Api, </code>
+                </span>
+                <span className={styles.tr}>
+                  <span className={styles.th}></span>
+                  <code>Sanity CMS, Git, GraphQL, Chakra UI,</code>
+                </span>
+                <span className={styles.tr}>
+                  <span className={styles.th}></span>
+                  <code>Tailwind CSS and GraphQL.</code>
+                </span>
+                <span className={styles.tr}>
+                  <span className={styles.th}></span>
+                  <code>I&apos;m also familiar with tools like Jira, </code>
+                </span>
+                <span className={styles.tr}>
+                  <span className={styles.th}></span>
+                  <code>GitHub and Figma</code>
+                </span>
+                <span className={styles.tr}>
+                  <span className={styles.th}></span>
+                  <code>Asides programming, I&apos;m also a technical</code>
+                </span>
+                <span className={styles.tr}>
+                  <span className={styles.th}></span>
+                  <code>writer, community builder and open-source lover.</code>
+                </span>
+                <span className={styles.tr}>
+                  <span className={styles.th}></span>
+                  <code>You can check out my technical contents <a href="https://dev.to/dev_cody" target='_blank' style={{textDecoration: 'underline'}}>here.</a></code>
+                </span>
+                <span className={styles.tr}>
+                  <span className={styles.th}></span>
+                  <code>Lastly, I am open to junior front-end</code>
+                </span>
+                <span className={styles.tr}>
+                  <span className={styles.th}></span>
+                  <code>dev roles to improve my skills and</code>
+                </span>
+                <span className={styles.tr}>
+                  <span className={styles.th}></span>
+                  <code>also solve more complex problems and</code>
+                </span>
+                <span className={styles.tr}>
+                  <span className={styles.th}></span>
+                  <code>work on exciting projects</code>
                 </span>
                 <span className={styles.tr}>
                   <span className={styles.th}></span>
@@ -138,13 +186,13 @@ const FlexSideBar = () => {
             {
               title: "contacts",
               content: [
-                <a key={0} href="mailto:qqudusayo@gmail.com">
+                <a key={0} href="mailto:ayanwunmiabdulroheem@gmail.com">
                   <IoMail fill="#607b96" />
-                  <span>qqudusayo@gmail.com</span>
+                  <span>ayanwunmiabdulroheem@gmail.com</span>
                 </a>,
                 <a key={1} href="tel:+2347016412041">
                   <IoCall fill="#607b96" />
-                  <span>+(234)701-6412-041</span>
+                  <span>+(234)812-7671-686</span>
                 </a>,
               ],
             },
