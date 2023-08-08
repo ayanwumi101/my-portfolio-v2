@@ -31,15 +31,15 @@ export default function About() {
                 </span>
                 <span className={styles.tr}>
                   <span className={styles.th}></span>
-                  <code>I&apos;m Ayanwumi Abdulroheem (Dev_cody)</code>
+                  <code>I&apos;m Ayanwumi Abdulroheem (Dev_cody).</code>
                 </span>
                 <span className={styles.tr}>
                   <span className={styles.th}></span>
-                  <code>I&apos;m a Frontend Developer with over 2 years of experience </code>
+                  <code>I&apos;m a Frontend Developer with over 2 years of experience. </code>
                 </span>
                 <span className={styles.tr}>
                   <span className={styles.th}></span>
-                  <code>I currently work as a software engineering intern at PAC Holdings LTD</code>
+                  <code>I currently work as a frontend developer at PAC Holdings LTD.</code>
                 </span>
                 <span className={styles.tr}>
                   <span className={styles.th}></span>
@@ -107,11 +107,11 @@ export default function About() {
                 </span>
                 <span className={styles.tr}>
                   <span className={styles.th}></span>
-                  <code>Lastly, I am open to junior front-end</code>
+                  <code>Lastly, I am open to full-time front-end</code>
                 </span>
                 <span className={styles.tr}>
                   <span className={styles.th}></span>
-                  <code>dev roles to improve my skills and</code>
+                  <code> dev roles to improve my skills and</code>
                 </span>
                 <span className={styles.tr}>
                   <span className={styles.th}></span>
