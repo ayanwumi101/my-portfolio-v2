@@ -20,6 +20,24 @@ const projects: ProjectTypes[] = [
     githubUrl: "https://github.com/marketintelsolutions/EventCircleAdmin/tree/dev_cody",
   },
   {
+    name: 'Devfest Ibadan Website',
+    mainType: 'Nextjs',
+    previewLink: 'https://devfestibadan.com',
+    previewImg: '/projects/devfestibadan.PNG',
+    category: ['NextJs', 'Typescript', 'Sass', 'Framer-motion', 'GSAP'],
+    description: 'Website for devfestibadan 2023',
+    githubUrl: 'https://github.com/gdg-ibadan01/devfest-ibadan-2023'
+  },
+   {
+    name: 'Dawrah',
+    mainType: 'React js',
+    previewLink: 'https://dawrah.pages.dev',
+    previewImg: '/projects/dawrah.PNG',
+    category: ['Reactjs', 'Javasript', 'Chakra UI', 'Paystack'],
+    description: 'Registration and Donation website with Payment gateway',
+    githubUrl: 'https://github.com/ayanwumi101/Dawrah'
+  },
+  {
     name: "Bookly Archive",
     mainType: "Next js",
     previewLink: "https://bookly-archive.netlify.app/",
