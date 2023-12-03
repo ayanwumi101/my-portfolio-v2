@@ -5,7 +5,6 @@ import {
   RiDribbbleFill,
   RiWhatsappFill
 } from "react-icons/ri";
-
 import styles from "./Footer.module.scss";
 
 export default function Footer() {
@@ -30,7 +29,7 @@ export default function Footer() {
           href="https://twitter.com/abdulroheem_"
           target="_blank"
           rel="noreferrer"
-        > 
+        >
           <RiTwitterFill fill="#607B96" size={25} />
         </a>
       </div>
