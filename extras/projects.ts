@@ -2,18 +2,18 @@ import { ProjectTypes } from "@/types";
 
 const projects: ProjectTypes[] = [
   {
-    name: "Event Circle",
+    name: "EventCirco",
     mainType: "react",
-    previewLink: "https://giftscircle.netlify.app/",
+    previewLink: "https://eventcirco.com/",
     previewImg: "/projects/product.PNG",
     category: ["React", "Javascript", "Firebase", "Cloudinary", "Chakra UI", "Redux-toolkit"],
     description: "A Gift sharing and Event Creation webapp",
     githubUrl: "https://github.com/ayanwumi101/GiftsCircle/tree/dev_cody",
   },
   {
-    name: "Event Circle Admin",
+    name: "EventCirco | Admin",
     mainType: "react",
-    previewLink: "https://eventcircleadmin.netlify.app/",
+    previewLink: "https://eventsadmin.eventcirco.com/",
     previewImg: "/projects/eventcircleadmin1.PNG",
     category: ["React", "Javascript", "Firebase", "Cloudinary", "Chakra UI", "Redux-toolkit"],
     description: "Admin Dashboard for Event Circle webapp",
@@ -99,6 +99,15 @@ const projects: ProjectTypes[] = [
     category: ["React", "Chakra UI"],
     description: "Website for Google developer Groups (GDG) Ibadan",
     githubUrl: "https://github.com/ayanwumi101/gdg-ibadan-devwebsite",
+  },
+  {
+    name: "Qcall",
+    previewLink: "https://www.linkedin.com/feed/update/urn:li:activity:7158983813946060800/",
+    mainType: "react",
+    previewImg: "/projects/qcall.JPG",
+    category: ["React Native", "Javascript", 'Rest Api', 'Google Maps', 'Firebase'],
+    description: "An emergency mobile app built with react native expo",
+    githubUrl: "https://github.com/ayanwumi101/geolocation-hackathon",
   },
   {
     name: "Job Listings App",
